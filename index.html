@@ -151,13 +151,6 @@
             a.target = "_blank"
             a.click()
         }
-        function giteeIssus() {
-            fetch(`https://gitee.com/api/v5/repos/huaydance/hyua/issues/I51LO9/comments?access_token=1107e3357174f92958ae9e8c042face4&page=1&per_page=20&order=asc`)
-            .then(res=>res.json()).then(res=>{
-                console.log(res)
-            })
-        }
-        giteeIssus()
     </script>
 </body>
 
